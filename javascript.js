@@ -43,7 +43,7 @@ function attribute_change_player2() {
 function randomnumgen() {
   var random = Math.floor(Math.random() * 6 + 1);
 
-  var randomimg = "/images/dice" + random + ".png";
+  var randomimg = "images/dice" + random + ".png";
 
   var randomarray = [random, randomimg];
   return randomarray;
